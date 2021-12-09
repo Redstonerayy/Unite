@@ -1,12 +1,14 @@
 #include <string>
 #include <iostream>
 #include <vector>
+#include "typedef.h"
 #include "lexer.h"
+#include "nodes.h"
 #include "parser.h"
 
 int main(){
     std::string input;
-    while(true){
+    while(true){//use getline state -> STO
         std::getline(std::cin, input);
         Lexer mylexer;
         mylexer.text = input;

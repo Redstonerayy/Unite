@@ -3,6 +3,9 @@
 
 class Parser {
     public:
+        std::vector<std::string> tokens;
+        void make_nodetree();
 };
+
 
 #endif
