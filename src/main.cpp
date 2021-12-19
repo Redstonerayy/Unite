@@ -6,7 +6,7 @@
 #include "nodes.h"
 #include "parser.h"
 
-int main(){
+void shell(){
     std::string input;
     while(true){//use getline state -> STO
         std::getline(std::cin, input);
@@ -19,4 +19,11 @@ int main(){
         }
         std::cout << "\n";
     }
+};
+
+int main(){
+    Lexer mylexer;
+    mylexer.text = "2 + 1";
+    int x = 0;
+    std::vector<std::string> output = mylexer.make_tokens();
 };

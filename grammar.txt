@@ -1,0 +1,15 @@
+//types
+int float string list
+//operators
++ - * / ** 
+= == != >= <= < > ( )
+! && ||
+.
+//seperators
+, ; :
+//keywords
+if else while for
+//standard lib
+printtoconsole
+getfromconsole
+typeconversion
